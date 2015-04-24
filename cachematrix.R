@@ -1,7 +1,12 @@
-## Put comments here that give an overall description of what your
-## functions do
+## We will create 2 functions. First function will create an object to store a matrix.
+## The second function will cache its inverse.
 
-## Write a short comment describing this function
+## The first function is called makeCacheMatrix. This function will create a matrix
+## which is a list containing a function to:
+   ## 1/-set the value of the matrix
+   ## 2/-get the value of the matrix
+   ## 3/-set the value of the inverse
+   ## 4/-get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
